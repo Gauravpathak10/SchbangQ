@@ -1,0 +1,83 @@
+.Nav {
+  display: flex;
+  color: rgb(108, 91, 47);
+  justify-content: space-around;
+  background-color: rgb(232, 187, 92);
+  align-items: center;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.Nav a {
+  text-decoration: none;
+  padding: 5px;
+  color: black;
+  background-color: whitesmoke;
+  border-radius: 5px;
+}
+
+.Book-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: aliceblue;
+  padding: 8px;
+  text-transform: capitalize;
+  box-shadow: 0px 0px 6px 2px #b4aaaa;
+  margin: 15px;
+}
+
+.Book-card li {
+  list-style: none;
+}
+
+.Book-card img {
+  width: 100px;
+  padding: 5px;
+}
+
+.d-flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.btn {
+  text-align: center;
+  text-decoration: none;
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: rgb(224, 163, 41);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.btn-add {
+  text-align: center;
+  text-decoration: none;
+  padding: 14px;
+  border: none;
+  color: white;
+  background-color: rgb(224, 163, 41);
+  border-radius: 5px;
+  margin: 5px;
+}
+
+.form-edit {
+  margin-top: 10px;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  background-color: #b4aaaa;
+}
+
+.form-edit form {
+  margin: auto;
+  width: 500px;
+  text-align: end;
+}
+
+.form-edit input {
+  width: 300px;
+  padding: 10px;
+  margin: 5px;
+}
