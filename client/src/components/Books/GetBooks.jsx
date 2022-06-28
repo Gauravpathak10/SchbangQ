@@ -16,7 +16,7 @@ const GetBooks = () => {
 
     const Discount = (e) => {
         const price = data.map(list => list.price - list.price * 30 / 100)
-        axios.put(`http://localhost:5000/discount/62b7357ce6b0b8990c93876e/${price[0]}`)
+        axios.patch(`http://localhost:5000/discount/${e.target.id}/${price[0]}`)
             .then((res) => {
                 setDisable(true)
             })
