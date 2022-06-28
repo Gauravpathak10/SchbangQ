@@ -1,1 +1,7 @@
 
+Login Api : http://localhost:5000/login
+Register Api: http://localhost:5000/register
+AddBook : http://localhost:5000/Add
+EditBook :http://localhost:5000/get/${id}
+Discount :http://localhost:5000/discount/${e.target.id}/${price[0]}`
+DeleteBook: http://localhost:5000/delete/${e.target.id}
